@@ -1,8 +1,8 @@
 # Text Summarizer Project
 
-![Project Image](https://github.com/riaz-pa/Datasets/blob/main/read.png)
-
-# Text Summarizer Project
+<p align="center">
+  <img src="https://github.com/riaz-pa/Datasets/blob/main/read.png" alt="Project Image" width="300" height="300">
+</p>
 
 ## Overview
 The Text Summarizer Project is a natural language processing (NLP) application designed to automatically generate concise and coherent summaries from longer texts or documents. Its primary purpose is to assist users in quickly extracting essential information from large volumes of textual data.
