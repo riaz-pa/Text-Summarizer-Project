@@ -43,7 +43,7 @@ The Text Summarizer Project aims to simplify the process of digesting large amou
 8. update the app.py
 
 ## Directory Structure
-
+```
 text-summarizer-project/
 ├── src/
 │   ├── config/
@@ -60,7 +60,7 @@ text-summarizer-project/
 ├── params.yaml
 ├── main.py
 ├── app.py
-
+```
 
 # How to run?
 ### STEPS:
