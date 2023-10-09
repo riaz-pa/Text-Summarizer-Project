@@ -46,16 +46,16 @@ The Text Summarizer Project aims to simplify the process of digesting large amou
 
 text-summarizer-project/
 ├── src/
-│   ├── config/
-│   │   ├── config_manager.py
-│   ├── components/
-│   │   ├── data_transformation.py
-│   │   ├── model_trainer.py
-│   ├── pipeline/
-│   │   ├── stage_01_data_ingestion.ipynb
-│   │   ├── stage_02_data_transformation.ipynb
-│   │   ├── stage_03_model_training.ipynb
-│   │   ├── stage_04_model_evaluation.ipynb
+│ ├── config/
+│ │ ├── config_manager.py
+│ ├── components/
+│ │ ├── data_transformation.py
+│ │ ├── model_trainer.py
+│ ├── pipeline/
+│ │ ├── stage_01_data_ingestion.ipynb
+│ │ ├── stage_02_data_transformation.ipynb
+│ │ ├── stage_03_model_training.ipynb
+│ │ ├── stage_04_model_evaluation.ipynb
 ├── config.yaml
 ├── params.yaml
 ├── main.py
