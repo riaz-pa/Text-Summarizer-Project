@@ -1,7 +1,7 @@
 # Text Summarizer Project
 
 <p align="center">
-  <img src="https://github.com/riaz-pa/Datasets/blob/main/read.png" alt="Project Image" width="300" height="300">
+  <img src="https://github.com/riaz-pa/Datasets/blob/main/read.png" alt="Project Image" width="300" height="200">
 </p>
 
 ## Overview
