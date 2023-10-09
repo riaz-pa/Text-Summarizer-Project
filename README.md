@@ -1,4 +1,35 @@
-# End to end Text-Summarizer-Project
+# Text Summarizer Project
+
+![Project Image](https://github.com/riaz-pa/Datasets/blob/main/read.png)
+
+# Text Summarizer Project
+
+## Overview
+The Text Summarizer Project is a natural language processing (NLP) application designed to automatically generate concise and coherent summaries from longer texts or documents. Its primary purpose is to assist users in quickly extracting essential information from large volumes of textual data.
+
+## Key Features
+- Text summarization using state-of-the-art models such as Pegasus and BART.
+- Customizable configuration for various summarization tasks.
+- Workflow automation for data transformation, model training, and evaluation.
+- Compatibility with different datasets and text sources.
+- Easy-to-use command-line interface (CLI) and graphical user interface (GUI).
+- Integration of pre-trained models for faster summarization.
+
+## Project Goals
+1. Enable users to summarize lengthy articles, documents, or news articles effectively.
+2. Facilitate research and development in NLP and summarization techniques.
+3. Provide an open-source, customizable solution for text summarization tasks.
+4. Offer a user-friendly interface for summarization tasks, even for non-technical users.
+
+The Text Summarizer Project aims to simplify the process of digesting large amounts of text by providing accurate and coherent summaries, ultimately saving time and improving information retrieval efficiency.
+
+## Table of Contents
+
+- [Workflow](#workflow)
+- [Directory Structure](#directory-structure)
+- [How to run?](#installation)
+- [AWS-CICD-Deployment-with-Github-Actions](#usage)
+- [Configuration](#configuration)
 
 ## Workflows
 
@@ -10,6 +41,25 @@
 6. update the pipeline
 7. update the main.py
 8. update the app.py
+
+## Directory Structure
+
+text-summarizer-project/
+├── src/
+│   ├── config/
+│   │   ├── config_manager.py
+│   ├── components/
+│   │   ├── data_transformation.py
+│   │   ├── model_trainer.py
+│   ├── pipeline/
+│   │   ├── stage_01_data_ingestion.ipynb
+│   │   ├── stage_02_data_transformation.ipynb
+│   │   ├── stage_03_model_training.ipynb
+│   │   ├── stage_04_model_evaluation.ipynb
+├── config.yaml
+├── params.yaml
+├── main.py
+├── app.py
 
 
 # How to run?
