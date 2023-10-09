@@ -45,21 +45,37 @@ The Text Summarizer Project aims to simplify the process of digesting large amou
 ## Directory Structure
 ```
 text-summarizer-project/
-├── src/
-│   ├── config/
-│   │   ├── config_manager.py
-│   ├── components/
-│   │   ├── data_transformation.py
-│   │   ├── model_trainer.py
-│   ├── pipeline/
-│   │   ├── stage_01_data_ingestion.ipynb
-│   │   ├── stage_02_data_transformation.ipynb
-│   │   ├── stage_03_model_training.ipynb
-│   │   ├── stage_04_model_evaluation.ipynb
-├── config.yaml
+├── Dockerfile
+├── README.md
+├── directory_structure.txt
 ├── params.yaml
-├── main.py
+├── setup.py
+├── LICENSE
 ├── app.py
+├── main.py
+├── requirements.txt
+├── template.py
+├── artifacts/
+│   ├── data_ingestion/
+│   ├── data_transformation/
+│   ├── data_validation/
+│   ├── model_trainer/
+├── config/
+│   ├── config.yaml
+├── logs/
+│   ├── running_logs.log
+├── research/
+│   ├── 01_data_ingestion.ipynb
+│   ├── 02_data_validation.ipynb
+│   ├── 03_data_transformation.ipynb
+│   ├── 04_model_trainer.ipynb
+│   ├── 05_Model_evaluation.ipynb
+│   ├── trials.ipynb
+│   ├── Text_Summarization.ipynb
+├── src/
+│   ├── textSummarizer/
+│   ├── textSummarizer.egg-info/
+
 ```
 
 # How to run?
